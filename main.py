@@ -302,7 +302,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Apple M2 Pro chip, 16GB RAM, 512GB SSD. Perfect for developers and creative professionals.',
                 'stock': 15,
-                'image': '💻',
+                'image': 'assets/products/macbook-pro-og-202410.jpeg',
                 'rating': 4.8,
                 'reviews': 245,
                 'specs': ['M2 Pro Chip', '16GB RAM', '512GB SSD', '14" Display']
@@ -324,7 +324,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'Comfortable running shoes with Air Max technology and modern design.',
                 'stock': 50,
-                'image': '👟',
+                'image': 'assets/products/Unknown.jpeg',
                 'rating': 4.5,
                 'reviews': 334,
                 'specs': ['Air Max Technology', 'Mesh Upper', 'Foam Midsole', 'Rubber Outsole']
@@ -335,7 +335,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Industry-leading wireless noise-canceling headphones with 30-hour battery life.',
                 'stock': 25,
-                'image': '🎧',
+                'image': 'assets/products/images.jpg',
                 'rating': 4.9,
                 'reviews': 156,
                 'specs': ['Noise Canceling', '30hr Battery', 'Quick Charge', 'Touch Controls']
@@ -346,7 +346,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'Classic slim-fit denim jeans made from premium cotton blend.',
                 'stock': 40,
-                'image': '👖',
+                'image': 'assets/products/-473Wx593H-469607666-blue-MODEL.jpg.avif',
                 'rating': 4.3,
                 'reviews': 278,
                 'specs': ['Slim Fit', '98% Cotton', 'Machine Wash', 'Multiple Sizes']
@@ -357,7 +357,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Full-frame mirrorless camera with 4K video recording and advanced autofocus.',
                 'stock': 8,
-                'image': '📷',
+                'image': 'assets/products/Canon_EOS_R6_Mark_II.jpeg',
                 'rating': 4.6,
                 'reviews': 92,
                 'specs': ['Full Frame', '4K Video', 'Image Stabilization', 'Dual Card Slots']
@@ -368,7 +368,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': '55-inch 4K UHD Smart TV with HDR and built-in streaming apps.',
                 'stock': 12,
-                'image': '📺',
+                'image': 'assets/products/Samsung 4K Smart TV 55.jpeg',
                 'rating': 4.4,
                 'reviews': 167,
                 'specs': ['4K UHD', 'Smart TV', 'HDR Support', '55" Display']
@@ -379,7 +379,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'Premium running shoes with Boost midsole technology and Primeknit upper.',
                 'stock': 35,
-                'image': '👟',
+                'image': 'assets/products/Adidas Ultraboost 22.jpeg',
                 'rating': 4.6,
                 'reviews': 203,
                 'specs': ['Boost Technology', 'Primeknit Upper', 'Continental Rubber', 'Energy Return']
@@ -392,7 +392,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Single-serve coffee maker with iced coffee capability and a 75oz water reservoir.',
                 'stock': 40,
-                'image': '☕',
+                'image': 'assets/products/Keurig K-Elite Coffee Maker.jpeg',
                 'rating': 4.7,
                 'reviews': 412,
                 'specs': ['Single Serve', 'Iced Coffee Setting', '75oz Reservoir', 'Strong Brew Option']
@@ -403,7 +403,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Crisp, dehydrate, and roast your favorite foods with little to no oil. 4-quart capacity.',
                 'stock': 60,
-                'image': '🍳',
+                'image': 'assets/products/Ninja AF101 Air Fryer.jpeg',
                 'rating': 4.8,
                 'reviews': 530,
                 'specs': ['4-Quart Capacity', 'Air Fry, Roast, Reheat', 'Dishwasher Safe', '1550 Watts']
@@ -414,7 +414,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Electric pressure cooker, slow cooker, rice cooker, steamer, and more in one appliance.',
                 'stock': 30,
-                'image': '🍲',
+                'image': 'assets/products/Instant Pot Duo 7-in-1.jpeg',
                 'rating': 4.7,
                 'reviews': 1205,
                 'specs': ['7-in-1 Functionality', '6-Quart Capacity', 'Stainless Steel', '13 Smart Programs']
@@ -425,7 +425,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Powerful and intelligent cordless vacuum for a deep clean anywhere.',
                 'stock': 15,
-                'image': '🧹',
+                'image': 'assets/products/Dyson V11 Cordless Vacuum.jpeg',
                 'rating': 4.6,
                 'reviews': 310,
                 'specs': ['60 Min Runtime', 'LCD Screen', 'Advanced Filtration', 'Lightweight Design']
@@ -436,7 +436,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Professional-grade blender for smoothies, soups, and frozen desserts.',
                 'stock': 22,
-                'image': '🥤',
+                'image': 'assets/products/Vitamix Explorian Blender.jpeg',
                 'rating': 4.9,
                 'reviews': 288,
                 'specs': ['Variable Speed Control', '64-Ounce Container', 'Aircraft-Grade Blades', 'Self-Cleaning']
@@ -447,7 +447,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Smart speaker with Alexa for voice control of your music, smart home, and more.',
                 'stock': 100,
-                'image': '🔊',
+                'image': 'assets/products/Amazon Echo Dot (5th Gen).jpeg',
                 'rating': 4.7,
                 'reviews': 980,
                 'specs': ['Alexa Built-in', 'Improved Audio', 'Smart Home Hub', 'Privacy Controls']
@@ -458,7 +458,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Smart LED light bulbs with a hub to control your lighting from your phone or voice.',
                 'stock': 45,
-                'image': '💡',
+                'image': 'assets/products/Philips Hue Starter Kit.jpeg',
                 'rating': 4.5,
                 'reviews': 190,
                 'specs': ['2 White & Color Bulbs', 'Hue Hub Included', 'Works with Alexa/Google', '16 Million Colors']
@@ -469,7 +469,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'The ultimate tool for baking, with a 5-quart bowl and 10 speed settings.',
                 'stock': 18,
-                'image': '🥣',
+                'image': 'assets/products/KitchenAid Stand Mixer.jpeg',
                 'rating': 4.9,
                 'reviews': 650,
                 'specs': ['5-Quart Bowl', '10 Speeds', 'Tilt-Head Design', 'Includes 3 Attachments']
@@ -480,7 +480,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'A versatile countertop oven with 13 cooking functions including air fry and dehydrate.',
                 'stock': 14,
-                'image': '🔥',
+                'image': 'assets/products/Breville Smart Oven Air Fryer.jpeg',
                 'rating': 4.8,
                 'reviews': 240,
                 'specs': ['13-in-1 Functions', 'Convection Cooking', 'Large Capacity', 'LCD Display']
@@ -491,7 +491,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Single-serve coffee and espresso machine using Centrifusion technology for perfect crema.',
                 'stock': 33,
-                'image': '☕',
+                'image': 'assets/products/Nespresso VertuoPlus Coffee Machine.jpeg',
                 'rating': 4.6,
                 'reviews': 350,
                 'specs': ['Coffee & Espresso', 'Centrifusion Technology', 'Automatic Blend Recognition', 'Fast Heat-up']
