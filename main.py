@@ -20,11 +20,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
-# =============================================================================
-# IMAGE MANAGEMENT FUNCTIONS
-# =============================================================================
-
 def load_image_as_base64(image_path):
     """
     Load local image file and convert to base64 string for display
@@ -53,10 +48,8 @@ def get_image_html(image_data, width="200px", height="200px"):
     """
     if image_data:
         if image_data.startswith('data:image') or image_data.startswith('http'):
-            # Already a data URL or web URL
             src = image_data
         elif os.path.exists(image_data):
-            # Local file path - convert to base64
             try:
                 with open(image_data, "rb") as f:
                     b64 = base64.b64encode(f.read()).decode()
@@ -70,7 +63,6 @@ def get_image_html(image_data, width="200px", height="200px"):
             except:
                 return f'<div style="width:{width};height:{height};background:#f0f0f0;display:flex;align-items:center;justify-content:center;border-radius:8px;">📷 No Image</div>'
         else:
-            # Treat as emoji or icon
             return f'<div style="width:{width};height:{height};display:flex;align-items:center;justify-content:center;font-size:4rem;background:#f8f9fa;border-radius:8px;">{image_data}</div>'
     else:
         return f'<div style="width:{width};height:{height};background:#f0f0f0;display:flex;align-items:center;justify-content:center;border-radius:8px;color:#666;">📷 No Image</div>'
@@ -105,11 +97,6 @@ def save_uploaded_image(uploaded_file, product_id):
 
         return file_path
     return None
-
-
-# =============================================================================
-# CUSTOM CSS WITH IMAGE STYLING
-# =============================================================================
 
 st.markdown("""
 <style>
@@ -258,11 +245,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
-
-# =============================================================================
-# SESSION STATE INITIALIZATION WITH SAMPLE IMAGES
-# =============================================================================
 
 def init_session_state():
     if 'users' not in st.session_state:
