@@ -102,17 +102,20 @@ st.markdown("""
 <style>
     /* Main header styling */
     .main-header {
-        position: sticky;  /* makes it stick */
-        top: 0;            /* stick to top */
-        z-index: 9999;     /* stay above everything */
-
+        position: sticky;
+        /* makes it stick */
+        top: 0;
+        /* stick to top */
+        z-index: 9999;
+        /* stay above everything */
         background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
         padding: 1.5rem;
-        border-radius: 0 0 16px 16px;  /* rounded only at bottom */
+        border-radius: 0 0 16px 16px;
+        /* rounded only at bottom */
         margin-bottom: 2.5rem;
         color: white;
         text-align: center;
-        box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
     }
 
     .main-header h1 {
@@ -129,14 +132,14 @@ st.markdown("""
         padding: 1.8rem;
         margin: 1.2rem 0;
         background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
-        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
     /* Hover effect */
     .product-card:hover {
         transform: translateY(-6px);
-        box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
     }
 
     /* Product image styling */
@@ -217,7 +220,7 @@ st.markdown("""
         padding: 1.5rem;
         border-radius: 12px;
         text-align: center;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
 
     .success-message {
@@ -241,7 +244,7 @@ st.markdown("""
         max-width: 150px;
         max-height: 150px;
         border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -317,7 +320,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Industry-leading wireless noise-canceling headphones with 30-hour battery life.',
                 'stock': 25,
-                'image': 'assets/products/images.jpg',
+                'image': 'assets/products/Sony WH-1000XM5.jpeg',
                 'rating': 4.9,
                 'reviews': 156,
                 'specs': ['Noise Canceling', '30hr Battery', 'Quick Charge', 'Touch Controls']
@@ -339,7 +342,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Full-frame mirrorless camera with 4K video recording and advanced autofocus.',
                 'stock': 8,
-                'image': 'assets/products/Canon_EOS_R6_Mark_II.jpeg',
+                'image': 'assets/products/Canon EOS R6 Mark II.jpeg',
                 'rating': 4.6,
                 'reviews': 92,
                 'specs': ['Full Frame', '4K Video', 'Image Stabilization', 'Dual Card Slots']
@@ -495,7 +498,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Pre-seasoned and ready-to-use cast iron skillet for versatile cooking.',
                 'stock': 80,
-                'image': 'assets/products/Lodge Cast Iron Skillet 12.jpeg',
+                'image': 'assets/products/Lodge Cast Iron Skillet 12.jpg',
                 'rating': 4.8,
                 'reviews': 1500,
                 'specs': ['12-Inch Diameter', 'Pre-Seasoned', 'Superior Heat Retention', 'Made in USA']
@@ -506,7 +509,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Dual-compartment trash can for easy recycling and waste management.',
                 'stock': 28,
-                'image': 'assets/products/Simplehuman 58L Step Can.jpeg',
+                'image': 'assets/products/Simplehuman 58L Step Can.jpg',
                 'rating': 4.9,
                 'reviews': 400,
                 'specs': ['Dual Compartment', '58-Liter Capacity', 'Liner Pocket', 'Soft-close Lid']
@@ -539,7 +542,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Smart thermostat that learns your schedule and programs itself to save energy.',
                 'stock': 40,
-                'image': 'assets/products/Nest Learning Thermostat.jpeg️',
+                'image': 'assets/products/Nest Learning Thermostat.jpeg',
                 'rating': 4.7,
                 'reviews': 780,
                 'specs': ['Auto-Schedule', 'Energy Saving', 'Remote Control', 'Works with Alexa']
@@ -550,7 +553,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Fast wireless charging stand for iPhone and Android devices.',
                 'stock': 120,
-                'image': 'assets/products/Anker PowerWave Wireless Charger.jpeg',
+                'image': 'assets/products/Anker PowerWave Wireless Charger.jpg',
                 'rating': 4.5,
                 'reviews': 1100,
                 'specs': ['10W Fast Charging', 'Case Friendly', 'Portrait/Landscape Mode', 'Non-Slip Pad']
@@ -618,7 +621,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Insulated stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12.',
                 'stock': 150,
-                'image': 'assets/products/Hydro Flask Wide Mouth 32 oz.jpeg',
+                'image': 'assets/products/Hydro Flask Wide Mouth 32 oz.png',
                 'rating': 4.9,
                 'reviews': 2100,
                 'specs': ['TempShield Insulation', 'Pro-Grade Stainless Steel', 'BPA-Free', 'Durable Powder Coat']
@@ -696,7 +699,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'A bright, waterproof headlamp with multiple modes for any outdoor adventure.',
                 'stock': 90,
-                'image': 'assets/products/Black Diamond Spot 400 Headlamp.jpeg',
+                'image': 'assets/errorpic/Black.jpeg',
                 'rating': 4.7,
                 'reviews': 350,
                 'specs': ['400 Lumen Output', 'IPX8 Waterproof', 'PowerTap Technology', 'Red Night-Vision Mode']
@@ -822,7 +825,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A 24-hour daily moisturizer that leaves skin feeling soft, smooth, and hydrated.',
                 'stock': 85,
-                'image': 'assets/Kiehl\'s Ultra Facial Cream.jpeg',
+                'image': 'assets/errorpic/ Facial Cream.jpeg',
                 'rating': 4.8,
                 'reviews': 780,
                 'specs': ['24-Hour Hydration', 'For All Skin Types', 'Lightweight Texture', 'With Glacial Glycoprotein']
@@ -1113,7 +1116,7 @@ def init_session_state():
                 'category': 'Movies',
                 'description': 'Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People.',
                 'stock': 80,
-                'image': 'assets/page4/Spider-Man: Across the Spider-Verse (Blu-ray).jpeg',
+                'image': 'assets/page4/Spider-Man- Across the Spider-Verse (Blu-ray).jpeg',
                 'rating': 4.9,
                 'reviews': 1100,
                 'specs': ['Blu-ray + Digital', 'Animated Feature', 'Action/Adventure', 'Oscar Nominee']
@@ -1124,7 +1127,7 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'An epic adventure across the land and skies of Hyrule awaits in the sequel to Breath of the Wild.',
                 'stock': 50,
-                'image': 'assets/page4/The Legend of Zelda: Tears of the Kingdom.jpeg',
+                'image': 'assets/page4/The Legend of Zelda- Tears of the Kingdom.jpeg',
                 'rating': 5.0,
                 'reviews': 2200,
                 'specs': ['Nintendo Switch', 'Action-Adventure', 'Open World', 'Sequel to BOTW']
@@ -1135,7 +1138,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'A groundbreaking narrative of humanity’s creation and evolution.',
                 'stock': 95,
-                'image': 'assets/page4/Sapiens: A Brief History of Humankind.jpeg',
+                'image': 'assets/page4/Sapiens- A Brief History of Humankind.jpeg',
                 'rating': 4.8,
                 'reviews': 4100,
                 'specs': ['Paperback', '464 Pages', 'Non-Fiction', 'History']
@@ -1168,31 +1171,31 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'The complete Cyberpunk experience, including the Phantom Liberty expansion.',
                 'stock': 45,
-                'image': 'assets/page4/Cyberpunk 2077: Ultimate Edition.jpeg',
+                'image': 'assets/page4/Cyberpunk 2077- Ultimate Edition.jpeg',
                 'rating': 4.5,
                 'reviews': 900,
                 'specs': ['PS5/Xbox Series X', 'Action RPG', 'Open World', 'Includes Expansion']
             },
 
             # === Page 5: More Clothing & Accessories ===
-            'P081': {
-                'name': 'Ray-Ban Classic Aviator Sunglasses',
-                'price': 163.00,
-                'category': 'Accessories',
-                'description': 'Timeless model that combines great aviator styling with exceptional quality, performance, and comfort.',
-                'stock': 60,
-                'image': '🕶️',
-                'rating': 4.7,
-                'reviews': 950,
-                'specs': ['100% UV Protection', 'Metal Frame', 'G-15 Green Lenses', 'Made in Italy']
-            },
+            #'P081': {
+            #   'name': 'Ray-Ban Classic Aviator Sunglasses',
+             #   'price': 163.00,
+              #  'category': 'Accessories',
+            #    'description': 'Timeless model that combines great aviator styling with exceptional quality, performance, and comfort.',
+             #   'stock': 60,
+              #  'image': '️assets/page5/Ray-Ban.jpeg',
+               # 'rating': 4.7,
+                #'reviews': 950,
+                #specs': ['100% UV Protection', 'Metal Frame', 'G-15 Green Lenses', 'Made in Italy']
+           # },
             'P082': {
                 'name': 'Fjällräven Kånken Classic Backpack',
                 'price': 80.00,
                 'category': 'Accessories',
                 'description': 'A classic backpack made from hard-wearing Vinylon F fabric with a zip that opens the entire main compartment.',
                 'stock': 90,
-                'image': '🎒',
+                'image': 'assets/page5/Fjällräven Kånken Classic Backpack.jpeg',
                 'rating': 4.8,
                 'reviews': 1200,
                 'specs': ['16-Liter Capacity', 'Vinylon F Fabric', 'Water-Resistant', 'Removable Seat Pad']
@@ -1203,7 +1206,7 @@ def init_session_state():
                 'category': 'Accessories',
                 'description': 'A reliable and stylish automatic watch with a day-date display and durable construction.',
                 'stock': 30,
-                'image': '⌚',
+                'image': 'assets/page5/Seiko 5 Sports Automatic Watch.jpeg',
                 'rating': 4.6,
                 'reviews': 620,
                 'specs': ['Automatic Movement', 'Stainless Steel Case', '100m Water Resistance', 'Day-Date Display']
@@ -1214,7 +1217,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'Soft, cozy, and breathable sneakers made from ZQ Merino wool.',
                 'stock': 70,
-                'image': '👟',
+                'image': 'assets/page5/Allbirds Wool Runners.jpeg',
                 'rating': 4.5,
                 'reviews': 1800,
                 'specs': ['ZQ Merino Wool Upper', 'Machine Washable', 'Carbon Neutral', 'Cushioned Midsole']
@@ -1225,7 +1228,7 @@ def init_session_state():
                 'category': 'Accessories',
                 'description': 'A classic, warm, and stretchable rib-knit hat that is a staple for cold weather.',
                 'stock': 250,
-                'image': '🧢',
+                'image': 'assets/page5/Carhartt Acrylic Watch Hat A18.jpeg',
                 'rating': 4.9,
                 'reviews': 4500,
                 'specs': ['100% Acrylic', 'Rib-Knit Fabric', 'One Size Fits All', 'Carhartt Label']
@@ -1236,21 +1239,10 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'Pants designed for all-day comfort and versatility, from work to the weekend.',
                 'stock': 55,
-                'image': '👖',
+                'image': 'assets/page5/Lululemon ABC Pant Classic.jpeg',
                 'rating': 4.7,
                 'reviews': 980,
                 'specs': ['Warpstreme™ Fabric', 'Four-Way Stretch', 'Wrinkle-Resistant', 'Hidden Pockets']
-            },
-            'P087': {
-                'name': 'Gucci GG Marmont Leather Belt',
-                'price': 490.00,
-                'category': 'Accessories',
-                'description': 'A slim leather belt with the iconic Double G buckle.',
-                'stock': 20,
-                'image': '🎗️',
-                'rating': 4.8,
-                'reviews': 350,
-                'specs': ['Black Leather', 'Antique Brass Hardware', 'Double G Buckle', 'Made in Italy']
             },
             'P088': {
                 'name': 'Birkenstock Arizona Sandals',
@@ -1258,7 +1250,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'A comfort legend and a fashion staple with its two-strap design and cork footbed.',
                 'stock': 80,
-                'image': '👡',
+                'image': 'assets/page5/Birkenstock Arizona Sandals.jpeg',
                 'rating': 4.6,
                 'reviews': 2100,
                 'specs': ['Suede Upper', 'Contoured Cork Footbed', 'EVA Sole', 'Adjustable Straps']
@@ -1269,7 +1261,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'The original heavyweight hoodie known for its durability and comfort.',
                 'stock': 100,
-                'image': '👕',
+                'image': 'assets/page5/Champion Reverse Weave Hoodie.jpeg',
                 'rating': 4.7,
                 'reviews': 1500,
                 'specs': ['Heavyweight Fleece', 'Athletic Fit', 'Double-Needle Construction', 'Signature Rib Panels']
@@ -1280,7 +1272,7 @@ def init_session_state():
                 'category': 'Accessories',
                 'description': 'A minimalist, RFID-blocking wallet that holds 1-12 cards without stretching out.',
                 'stock': 65,
-                'image': '💳',
+                'image': 'assets/page5/The Ridge Wallet.jpeg',
                 'rating': 4.9,
                 'reviews': 1300,
                 'specs': ['Aluminum/Titanium', 'RFID Blocking', 'Holds 1-12 Cards', 'Integrated Money Clip']
@@ -1291,7 +1283,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'Iconic sheepskin boot that is pretreated to protect against moisture and staining.',
                 'stock': 40,
-                'image': '👢',
+                'image': 'assets/page5/UGG Classic Short II Boot.jpeg',
                 'rating': 4.5,
                 'reviews': 1100,
                 'specs': ['Twinface Sheepskin', 'Treadlite by UGG™ Sole', 'Pretreated for Water Resistance',
@@ -1303,7 +1295,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'The original Polo button-down Oxford shirt, an icon of American style.',
                 'stock': 50,
-                'image': '👔',
+                'image': 'assets/page5/Brooks Brothers Oxford Cloth Shirt.jpeg',
                 'rating': 4.6,
                 'reviews': 480,
                 'specs': ['Supima Cotton', 'Button-Down Collar', 'Classic Fit', 'Signature 6-Pleat Shirring']
@@ -1314,7 +1306,7 @@ def init_session_state():
                 'category': 'Accessories',
                 'description': 'Thoughtfully designed carry-on luggage with a durable polycarbonate shell and 360° spinner wheels.',
                 'stock': 35,
-                'image': '🧳',
+                'image': 'assets/page5/Away The Carry-On.jpeg',
                 'rating': 4.8,
                 'reviews': 850,
                 'specs': ['Polycarbonate Shell', '360° Spinner Wheels', 'Interior Compression', 'TSA-Approved Lock']
@@ -1325,7 +1317,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'The original Dr. Martens boot, instantly recognizable with its 8 eyes and yellow stitching.',
                 'stock': 45,
-                'image': '🥾',
+                'image': 'assets/page5/Dr. Martens 1460 Smooth Leather Boots.jpeg',
                 'rating': 4.7,
                 'reviews': 1900,
                 'specs': ['Goodyear Welted', 'Air-Cushioned Sole', 'Durable Smooth Leather', '8-Eye Design']
@@ -1336,7 +1328,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'Performance hiking socks made with Merino wool for comfort, breathability, and durability.',
                 'stock': 180,
-                'image': '🧦',
+                'image': 'assets/page5/Smartwool Hiking Socks.jpeg',
                 'rating': 4.9,
                 'reviews': 2200,
                 'specs': ['Merino Wool Blend', 'Performance Fit', 'Medium Cushion', 'Virtually Seamless™ Toe']
@@ -1347,7 +1339,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'The ultimate device for a healthy life with a new S9 chip, a brighter display, and Double Tap gesture.',
                 'stock': 40,
-                'image': '⌚',
+                'image': 'assets/page5/Apple Watch Series 9.jpeg',
                 'rating': 4.8,
                 'reviews': 950,
                 'specs': ['S9 SiP Chip', 'Double Tap Gesture', 'Brighter Display', 'Advanced Health Sensors']
@@ -1358,7 +1350,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'A classic crewneck sweater made from soft, Grade-A Mongolian cashmere.',
                 'stock': 60,
-                'image': '👕',
+                'image': 'assets/page5/Everlane The Cashmere Crew.jpeg',
                 'rating': 4.6,
                 'reviews': 680,
                 'specs': ['100% Grade-A Cashmere', 'Classic Fit', 'Soft & Lightweight', 'Ethically Sourced']
@@ -1369,7 +1361,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'The original extreme weather parka, developed for scientists working in Antarctica.',
                 'stock': 10,
-                'image': '🧥',
+                'image': 'assets/page5/Canada Goose Expedition Parka.jpeg',
                 'rating': 4.9,
                 'reviews': 400,
                 'specs': ['Rated for -30°C & Below', '625 Fill Power Down', 'Arctic Tech® Fabric', 'Coyote Fur Ruff']
