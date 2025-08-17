@@ -484,7 +484,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Powerful food processor for chopping, slicing, shredding, and mixing.',
                 'stock': 25,
-                'image': '🔪',
+                'image': 'assets/products/Cuisinart 14-Cup Food Processor.jpeg',
                 'rating': 4.7,
                 'reviews': 210,
                 'specs': ['14-Cup Capacity', '720-Watt Motor', 'Stainless Steel Blades', 'Easy to Clean']
@@ -495,7 +495,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Pre-seasoned and ready-to-use cast iron skillet for versatile cooking.',
                 'stock': 80,
-                'image': '🍳',
+                'image': 'assets/products/Lodge Cast Iron Skillet 12.jpeg',
                 'rating': 4.8,
                 'reviews': 1500,
                 'specs': ['12-Inch Diameter', 'Pre-Seasoned', 'Superior Heat Retention', 'Made in USA']
@@ -506,7 +506,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Dual-compartment trash can for easy recycling and waste management.',
                 'stock': 28,
-                'image': '🗑️',
+                'image': 'assets/products/Simplehuman 58L Step Can.jpeg',
                 'rating': 4.9,
                 'reviews': 400,
                 'specs': ['Dual Compartment', '58-Liter Capacity', 'Liner Pocket', 'Soft-close Lid']
@@ -517,7 +517,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Buttery-smooth 480 thread count sateen sheets for ultimate comfort.',
                 'stock': 50,
-                'image': '🛏️',
+                'image': 'assets/products/Brooklinen Luxe Core Sheet Set.jpeg',
                 'rating': 4.6,
                 'reviews': 620,
                 'specs': ['480 Thread Count', '100% Long-Staple Cotton', 'Sateen Weave', 'Queen Size']
@@ -528,7 +528,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Ergonomic office chair designed for maximum comfort and support.',
                 'stock': 10,
-                'image': '🪑',
+                'image': 'assets/products/Herman Miller Aeron Chair.jpeg',
                 'rating': 4.9,
                 'reviews': 320,
                 'specs': ['Ergonomic Design', 'PostureFit SL Support', 'Adjustable Arms', 'Breathable Pellicle']
@@ -539,7 +539,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Smart thermostat that learns your schedule and programs itself to save energy.',
                 'stock': 40,
-                'image': '🌡️',
+                'image': 'assets/products/Nest Learning Thermostat.jpeg️',
                 'rating': 4.7,
                 'reviews': 780,
                 'specs': ['Auto-Schedule', 'Energy Saving', 'Remote Control', 'Works with Alexa']
@@ -550,7 +550,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Fast wireless charging stand for iPhone and Android devices.',
                 'stock': 120,
-                'image': '🔋',
+                'image': 'assets/products/Anker PowerWave Wireless Charger.jpeg',
                 'rating': 4.5,
                 'reviews': 1100,
                 'specs': ['10W Fast Charging', 'Case Friendly', 'Portrait/Landscape Mode', 'Non-Slip Pad']
@@ -561,7 +561,7 @@ def init_session_state():
                 'category': 'Home & Kitchen',
                 'description': 'Keeps your hot beverage at the exact temperature you prefer.',
                 'stock': 35,
-                'image': '☕',
+                'image': 'assets/products/Ember Temperature Control Smart Mug 2.jpeg',
                 'rating': 4.4,
                 'reviews': 250,
                 'specs': ['1.5 Hour Battery', 'App-Controlled', 'Customizable LED', '10 oz Capacity']
@@ -574,7 +574,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Non-slip yoga mat with alignment markers for a perfect practice.',
                 'stock': 55,
-                'image': '🧘',
+                'image': 'assets/products/Liforme Original Yoga Mat.jpeg',
                 'rating': 4.9,
                 'reviews': 300,
                 'specs': ['GripForMe Material', 'AlignForMe System', 'Eco-Friendly', 'Larger & Wider']
@@ -585,7 +585,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Adjustable dumbbells that replace 15 sets of weights. Adjust from 5 to 52.5 lbs.',
                 'stock': 20,
-                'image': '🏋️',
+                'image': 'assets/products/Bowflex SelectTech 552 Dumbbells.jpeg',
                 'rating': 4.8,
                 'reviews': 850,
                 'specs': ['Adjustable 5-52.5 lbs', 'Rapid-Switch Dial', 'Space Efficient', 'Quiet Workouts']
@@ -596,7 +596,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'GPS running watch with music storage, advanced dynamics, and performance monitoring.',
                 'stock': 30,
-                'image': '⌚',
+                'image': 'assets/products/Garmin Forerunner 245 Music.jpeg',
                 'rating': 4.7,
                 'reviews': 640,
                 'specs': ['GPS Tracking', 'Music Storage', 'VO2 Max Monitoring', 'Safety Features']
@@ -607,7 +607,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Versatile backpack with a padded laptop sleeve and comfortable FlexVent suspension.',
                 'stock': 70,
-                'image': '🎒',
+                'image': 'assets/products/The North Face Borealis Backpack.jpeg',
                 'rating': 4.6,
                 'reviews': 510,
                 'specs': ['28-Liter Capacity', 'FlexVent Suspension', 'Laptop Sleeve', 'Sternum Strap']
@@ -618,7 +618,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Insulated stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12.',
                 'stock': 150,
-                'image': '💧',
+                'image': 'assets/products/Hydro Flask Wide Mouth 32 oz.jpeg',
                 'rating': 4.9,
                 'reviews': 2100,
                 'specs': ['TempShield Insulation', 'Pro-Grade Stainless Steel', 'BPA-Free', 'Durable Powder Coat']
@@ -629,7 +629,7 @@ def init_session_state():
                 'category': 'Clothing',
                 'description': 'Lightweight, windproof, and water-resistant jacket with PrimaLoft Gold Insulation.',
                 'stock': 40,
-                'image': '🧥',
+                'image': 'assets/products/Patagonia Nano Puff Jacket.jpeg',
                 'rating': 4.8,
                 'reviews': 450,
                 'specs': ['PrimaLoft Gold Insulation', '100% Recycled Shell', 'Windproof', 'Water-Resistant']
@@ -640,7 +640,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Award-winning backpacking pack with Anti-Gravity suspension for incredible comfort.',
                 'stock': 18,
-                'image': '🎒',
+                'image': 'assets/products/Osprey Atmos AG 65 Backpacking Pack.jpeg',
                 'rating': 4.9,
                 'reviews': 380,
                 'specs': ['Anti-Gravity Suspension', '65-Liter Capacity', 'Integrated Raincover',
@@ -652,7 +652,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'An entry-level road bike that offers exceptional performance and versatility.',
                 'stock': 12,
-                'image': '🚲',
+                'image': 'assets/products/Specialized Allez E5 Road Bike.jpeg',
                 'rating': 4.5,
                 'reviews': 120,
                 'specs': ['E5 Premium Aluminum Frame', 'Shimano Claris Groupset', 'Carbon Fork', 'Axis Sport Wheels']
@@ -663,7 +663,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Easy-to-set-up dome tent perfect for car camping and weekend getaways.',
                 'stock': 65,
-                'image': '⛺',
+                'image': 'assets/products/Coleman Sundome 4-Person Tent.jpeg',
                 'rating': 4.4,
                 'reviews': 950,
                 'specs': ['Sleeps 4 People', 'WeatherTec System', '10-Minute Setup', 'Large Windows']
@@ -674,7 +674,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Official size and weight basketball with a durable outdoor performance rubber cover.',
                 'stock': 200,
-                'image': '🏀',
+                'image': 'assets/products/Spalding NBA Street Basketball.jpeg',
                 'rating': 4.6,
                 'reviews': 1300,
                 'specs': ['Official NBA Size 7', 'Performance Rubber Cover', 'Deep Channel Design', 'For Outdoor Play']
@@ -685,7 +685,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Legendary cooler with PermaFrost insulation for unmatched ice retention.',
                 'stock': 25,
-                'image': '🧊',
+                'image': 'assets/products/YETI Tundra 45 Cooler.jpeg',
                 'rating': 4.9,
                 'reviews': 980,
                 'specs': ['FatWall Design', 'PermaFrost Insulation', 'Rotomolded Construction', 'Bear-Resistant']
@@ -696,7 +696,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'A bright, waterproof headlamp with multiple modes for any outdoor adventure.',
                 'stock': 90,
-                'image': '🔦',
+                'image': 'assets/products/Black Diamond Spot 400 Headlamp.jpeg',
                 'rating': 4.7,
                 'reviews': 350,
                 'specs': ['400 Lumen Output', 'IPX8 Waterproof', 'PowerTap Technology', 'Red Night-Vision Mode']
@@ -707,7 +707,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'Percussive therapy device for deep muscle treatment, recovery, and pain relief.',
                 'stock': 30,
-                'image': '💪',
+                'image': 'assets/products/Theragun Prime Massage Gun.jpeg',
                 'rating': 4.8,
                 'reviews': 420,
                 'specs': ['QuietForce Technology', '5 Speeds', 'App Integration', '4 Attachments']
@@ -718,7 +718,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'The ultimate indoor cycling experience with a rotating screen and live classes.',
                 'stock': 10,
-                'image': '🚲',
+                'image': 'assets/products/Peloton Bike+.jpeg',
                 'rating': 4.7,
                 'reviews': 1100,
                 'specs': ['23.8" HD Rotating Screen', 'Live & On-Demand Classes', 'Auto-Resistance',
@@ -730,7 +730,7 @@ def init_session_state():
                 'category': 'Footwear',
                 'description': 'Iconic trail running shoes with aggressive grip for soft, technical trails.',
                 'stock': 45,
-                'image': '👟',
+                'image': 'assets/Salomon Speedcross 5 Trail Runners.jpeg',
                 'rating': 4.6,
                 'reviews': 390,
                 'specs': ['Aggressive Grip', 'SensiFit Cradle', 'Welded Upper', 'Quicklace System']
@@ -741,7 +741,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'The number one ball in golf, offering total performance for every player.',
                 'stock': 100,
-                'image': '⛳',
+                'image': 'assets/Titleist Pro V1 Golf Balls.jpeg',
                 'rating': 4.9,
                 'reviews': 720,
                 'specs': ['12-Ball Pack', 'Soft Feel', 'Long Distance', 'Drop-and-Stop Control']
@@ -752,7 +752,7 @@ def init_session_state():
                 'category': 'Sports & Outdoors',
                 'description': 'A popular racket choice for its feel, stability, and connected-to-the-ball experience.',
                 'stock': 28,
-                'image': '🎾',
+                'image': 'assets/Wilson Blade 98 Tennis Racket.jpeg',
                 'rating': 4.7,
                 'reviews': 180,
                 'specs': ['98 sq. in. Head Size', 'FORTYFIVE° Technology', 'DirectConnect Carbon',
@@ -764,7 +764,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'The latest action camera with a larger sensor, improved stabilization, and incredible image quality.',
                 'stock': 22,
-                'image': '📹',
+                'image': 'assets/GoPro HERO11 Black.jpeg',
                 'rating': 4.6,
                 'reviews': 290,
                 'specs': ['5.3K60 Video', 'HyperSmooth 5.0', 'Waterproof to 33ft', 'Large Image Sensor']
@@ -777,7 +777,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'Removes up to 10x more plaque for healthier gums in just two weeks.',
                 'stock': 40,
-                'image': '🪥',
+                'image': 'assets/Philips Sonicare DiamondClean Toothbrush.jpeg',
                 'rating': 4.8,
                 'reviews': 880,
                 'specs': ['5 Brushing Modes', 'Pressure Sensor', 'Charging Glass', 'Travel Case']
@@ -788,7 +788,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'Engineered to protect hair from extreme heat damage, with fast drying and controlled styling.',
                 'stock': 15,
-                'image': '💨',
+                'image': 'assets/Dyson Supersonic Hair Dryer.jpeg',
                 'rating': 4.7,
                 'reviews': 650,
                 'specs': ['Intelligent Heat Control', 'Powerful Digital Motor', 'Magnetic Attachments',
@@ -800,7 +800,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A skincare regimen to target textural irregularities, dullness, and signs of congestion.',
                 'stock': 120,
-                'image': '🧴',
+                'image': 'assets/The Ordinary - The Balance Set.jpeg',
                 'rating': 4.5,
                 'reviews': 1200,
                 'specs': ['4-Piece Set', 'Targets Blemishes', 'Vegan & Cruelty-Free', 'For Oily Skin']
@@ -811,7 +811,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'Advanced fitness & health tracker with built-in GPS, stress management tools and sleep tracking.',
                 'stock': 60,
-                'image': '💓',
+                'image': 'assets/Fitbit Charge 5.jpeg',
                 'rating': 4.4,
                 'reviews': 950,
                 'specs': ['Built-in GPS', 'EDA & ECG Sensors', 'Color Touchscreen', '7-Day Battery Life']
@@ -822,7 +822,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A 24-hour daily moisturizer that leaves skin feeling soft, smooth, and hydrated.',
                 'stock': 85,
-                'image': '💧',
+                'image': 'assets/Kiehl\'s Ultra Facial Cream.jpeg',
                 'rating': 4.8,
                 'reviews': 780,
                 'specs': ['24-Hour Hydration', 'For All Skin Types', 'Lightweight Texture', 'With Glacial Glycoprotein']
@@ -833,7 +833,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A radically fresh composition, dictated by a name that has the ring of a manifesto.',
                 'stock': 50,
-                'image': '✨',
+                'image': 'assets/Dior Sauvage Eau de Toilette.jpeg',
                 'rating': 4.7,
                 'reviews': 1500,
                 'specs': ['3.4 oz Bottle', 'Fresh & Woody Scent', 'Notes of Bergamot', 'Long-Lasting']
@@ -844,7 +844,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A gentle formulation containing oils of Orange, Rosemary, and Lavender to effectively cleanse the hands.',
                 'stock': 70,
-                'image': '🧼',
+                'image': 'assets/Aesop Resurrection Aromatique Hand Wash.jpeg',
                 'rating': 4.9,
                 'reviews': 600,
                 'specs': ['16.9 oz Bottle', 'Botanical Ingredients', 'Gentle on Skin', 'Aromatic Scent']
@@ -855,7 +855,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'The world’s most efficient electric shaver, designed for a flawless close shave.',
                 'stock': 25,
-                'image': '🧔',
+                'image': 'assets/Braun Series 9 Pro Electric Shaver.jpeg',
                 'rating': 4.6,
                 'reviews': 410,
                 'specs': ['Wet & Dry Use', 'ProLift Trimmer', '40,000 Cutting Actions', 'Clean&Charge Station']
@@ -866,7 +866,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A smart hair straightener that predicts your hair\'s needs for ultimate results.',
                 'stock': 30,
-                'image': '💈',
+                'image': 'assets/GHD Platinum+ Styler.jpeg',
                 'rating': 4.8,
                 'reviews': 320,
                 'specs': ['Predictive Technology', 'Optimal 365°F Temperature', 'Wishbone Hinge', 'Universal Voltage']
@@ -877,7 +877,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'Professional-level teeth whitening results at home, removing 14 years of stains.',
                 'stock': 90,
-                'image': '😁',
+                'image': 'assets/Crest 3D Whitestrips.jpeg',
                 'rating': 4.5,
                 'reviews': 2500,
                 'specs': ['20 Treatments', 'Advanced Seal Technology', 'Enamel Safe', 'Noticeable Results in 3 Days']
@@ -888,7 +888,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'An invisible, weightless, and scentless sunscreen that acts as a makeup-gripping primer.',
                 'stock': 110,
-                'image': '☀️',
+                'image': 'assets/Supergoop! Unseen Sunscreen SPF 40.jpeg',
                 'rating': 4.7,
                 'reviews': 1800,
                 'specs': ['SPF 40 Protection', 'Broad Spectrum', 'Oil-Free', 'Reef-Safe']
@@ -899,7 +899,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'Removes up to 99.9% of plaque from treated areas and is 50% more effective than string floss.',
                 'stock': 55,
-                'image': '💦',
+                'image': 'assets/Waterpik Aquarius Water Flosser.jpeg',
                 'rating': 4.6,
                 'reviews': 1250,
                 'specs': ['10 Pressure Settings', '7 Tips Included', '90-Second Water Capacity',
@@ -911,7 +911,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'An at-home treatment that reduces breakage and visibly strengthens hair.',
                 'stock': 150,
-                'image': '💆',
+                'image': 'assets/Olaplex No. 3 Hair Perfector.jpeg',
                 'rating': 4.8,
                 'reviews': 3500,
                 'specs': ['Repairs Damaged Hair', 'Strengthens Bonds', 'For All Hair Types', 'Use Before Shampooing']
@@ -922,7 +922,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'Anti-aging, anti-sleep crease, and anti-bed head pillowcase made from pure mulberry silk.',
                 'stock': 60,
-                'image': '😴',
+                'image': 'assets/Slip Pure Silk Pillowcase.jpeg',
                 'rating': 4.9,
                 'reviews': 980,
                 'specs': ['100% Mulberry Silk', 'Anti-Aging Benefits', 'Gentle on Hair & Skin', 'Queen Size']
@@ -933,7 +933,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'An award-winning concealer that provides medium-to-full, buildable coverage.',
                 'stock': 100,
-                'image': '💄',
+                'image': 'assets/NARS Radiant Creamy Concealer.jpeg',
                 'rating': 4.7,
                 'reviews': 2200,
                 'specs': ['16-Hour Wear', 'Corrects & Contours', 'Light-Diffusing Technology', '30 Shades Available']
@@ -944,7 +944,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A mix of peppermint and neon color sends your mood rocketing, while popping candy takes you on a trip through the Milky Way.',
                 'stock': 200,
-                'image': '💣',
+                'image': 'assets/Lush Bath Bomb - Intergalactic.jpeg',
                 'rating': 4.9,
                 'reviews': 1500,
                 'specs': ['Vegan', 'Peppermint Scent', 'Popping Candy', 'Handmade']
@@ -955,7 +955,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'An ultra-rich cream that instantly immerses skin in healing moisture and reveals a firmer feel.',
                 'stock': 12,
-                'image': '💎',
+                'image': 'assets/La Mer Crème de la Mer.jpeg',
                 'rating': 4.6,
                 'reviews': 450,
                 'specs': ['50ml Jar', 'Miracle Broth™', 'Ultra-Rich Texture', 'Soothes Dryness']
@@ -966,7 +966,7 @@ def init_session_state():
                 'category': 'Health & Beauty',
                 'description': 'A Wi-Fi body composition smart scale that tracks weight, BMI, body fat, and more.',
                 'stock': 40,
-                'image': '⚖️',
+                'image': 'assets/Withings Body+ Smart Scale.jpeg',
                 'rating': 4.5,
                 'reviews': 750,
                 'specs': ['Full Body Composition', 'Wi-Fi & Bluetooth Sync', 'Multi-User Friendly',
@@ -980,7 +980,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'A proven framework for improving every day by making tiny, easy changes.',
                 'stock': 150,
-                'image': '📚',
+                'image': 'assets/page4/Atomic Habits by James Clear.jpeg',
                 'rating': 4.9,
                 'reviews': 5500,
                 'specs': ['Hardcover', '320 Pages', 'Self-Help', 'New York Times Bestseller']
@@ -991,7 +991,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'The classic science fiction masterpiece, a stunning blend of adventure and mysticism.',
                 'stock': 120,
-                'image': '📖',
+                'image': 'assets/page4/Dune by Frank Herbert.jpeg',
                 'rating': 4.8,
                 'reviews': 3200,
                 'specs': ['Paperback', '896 Pages', 'Science Fiction', 'Hugo Award Winner']
