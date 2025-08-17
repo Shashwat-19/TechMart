@@ -1002,7 +1002,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Features a vibrant 7-inch OLED screen, a wide adjustable stand, and 64 GB of internal storage.',
                 'stock': 35,
-                'image': '🎮',
+                'image': 'assets/page4/Nintendo Switch - OLED Model.jpeg',
                 'rating': 4.8,
                 'reviews': 1200,
                 'specs': ['7-Inch OLED Screen', '64 GB Storage', 'Enhanced Audio', '3 Play Modes']
@@ -1013,7 +1013,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'A novel about all the choices that go into a life well-lived.',
                 'stock': 90,
-                'image': '📚',
+                'image': 'assets/page4/The Midnight Library by Matt Haig.jpeg',
                 'rating': 4.6,
                 'reviews': 2800,
                 'specs': ['Hardcover', '304 Pages', 'Contemporary Fiction', 'Goodreads Choice Winner']
@@ -1024,7 +1024,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Experience lightning-fast loading with an ultra-high-speed SSD and deeper immersion with haptic feedback.',
                 'stock': 10,
-                'image': '🎮',
+                'image': 'assets/page4/Sony PlayStation 5 Console.jpeg',
                 'rating': 4.9,
                 'reviews': 2500,
                 'specs': ['Ultra-High-Speed SSD', 'Haptic Feedback', '4K-TV Gaming', 'Ray Tracing']
@@ -1035,7 +1035,7 @@ def init_session_state():
                 'category': 'Movies',
                 'description': 'The complete cinematic trilogy, remastered in stunning 4K Ultra HD.',
                 'stock': 40,
-                'image': '🎬',
+                'image': 'assets/page4/The Lord of the Rings Trilogy (4K Blu-ray).jpeg',
                 'rating': 4.9,
                 'reviews': 1800,
                 'specs': ['4K Ultra HD', '9-Disc Set', 'Theatrical & Extended', 'Dolby Atmos']
@@ -1046,7 +1046,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'Now with a 6.8” display and thinner borders, adjustable warm light, and up to 10 weeks of battery life.',
                 'stock': 75,
-                'image': '📖',
+                'image': 'assets/page4/Kindle Paperwhite.jpeg',
                 'rating': 4.7,
                 'reviews': 4500,
                 'specs': ['6.8" Glare-Free Display', 'Waterproof (IPX8)', 'Adjustable Warm Light',
@@ -1058,7 +1058,7 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'A new fantasy action RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring.',
                 'stock': 60,
-                'image': '⚔️',
+                'image': 'assets/page4/Elden Ring - PlayStation 5.jpeg',
                 'rating': 4.9,
                 'reviews': 1500,
                 'specs': ['Action RPG', 'Vast Open World', 'FromSoftware', 'Game of the Year']
@@ -1069,7 +1069,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'Timeless lessons on wealth, greed, and happiness.',
                 'stock': 110,
-                'image': '💰',
+                'image': 'assets/page4/The Psychology of Money by Morgan Housel.jpeg',
                 'rating': 4.7,
                 'reviews': 2100,
                 'specs': ['Paperback', '256 Pages', 'Personal Finance', 'Bestseller']
@@ -1080,7 +1080,7 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'A social word game with a simple premise and challenging gameplay for two rival spymasters.',
                 'stock': 130,
-                'image': '🎲',
+                'image': 'assets/page4/Codenames Board Game.jpeg',
                 'rating': 4.8,
                 'reviews': 3500,
                 'specs': ['4-8+ Players', '15 Min Playtime', 'Ages 10+', 'Party Game']
@@ -1091,7 +1091,7 @@ def init_session_state():
                 'category': 'Electronics',
                 'description': 'The fastest, most powerful Xbox ever. Explore rich new worlds with 12 teraflops of raw graphic processing power.',
                 'stock': 15,
-                'image': '🎮',
+                'image': 'assets/page4/Xbox Series X Console.jpeg',
                 'rating': 4.8,
                 'reviews': 1900,
                 'specs': ['12 Teraflops Power', '1TB Custom SSD', '4K Gaming at 120 FPS', 'Quick Resume']
@@ -1102,7 +1102,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'A heartbreaking coming-of-age story and a surprising tale of possible murder.',
                 'stock': 200,
-                'image': '📖',
+                'image': 'assets/page4/Where the Crawdads Sing by Delia Owens.jpeg',
                 'rating': 4.7,
                 'reviews': 6000,
                 'specs': ['Paperback', '384 Pages', 'Mystery Fiction', '#1 Bestseller']
@@ -1113,7 +1113,7 @@ def init_session_state():
                 'category': 'Movies',
                 'description': 'Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People.',
                 'stock': 80,
-                'image': '🕷️',
+                'image': 'assets/page4/Spider-Man: Across the Spider-Verse (Blu-ray).jpeg',
                 'rating': 4.9,
                 'reviews': 1100,
                 'specs': ['Blu-ray + Digital', 'Animated Feature', 'Action/Adventure', 'Oscar Nominee']
@@ -1124,7 +1124,7 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'An epic adventure across the land and skies of Hyrule awaits in the sequel to Breath of the Wild.',
                 'stock': 50,
-                'image': '🛡️',
+                'image': 'assets/page4/The Legend of Zelda: Tears of the Kingdom.jpeg',
                 'rating': 5.0,
                 'reviews': 2200,
                 'specs': ['Nintendo Switch', 'Action-Adventure', 'Open World', 'Sequel to BOTW']
@@ -1135,7 +1135,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'A groundbreaking narrative of humanity’s creation and evolution.',
                 'stock': 95,
-                'image': '🧠',
+                'image': 'assets/page4/Sapiens: A Brief History of Humankind.jpeg',
                 'rating': 4.8,
                 'reviews': 4100,
                 'specs': ['Paperback', '464 Pages', 'Non-Fiction', 'History']
@@ -1146,7 +1146,7 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'The classic strategy game of trading and building. Guide your settlers to victory.',
                 'stock': 85,
-                'image': '🎲',
+                'image': 'assets/page4/Settlers of Catan Board Game.jpeg',
                 'rating': 4.7,
                 'reviews': 2800,
                 'specs': ['3-4 Players', '60 Min Playtime', 'Ages 10+', 'Strategy Game']
@@ -1157,7 +1157,7 @@ def init_session_state():
                 'category': 'Books',
                 'description': 'The complete 7-book collection of the magical Harry Potter series.',
                 'stock': 70,
-                'image': '⚡',
+                'image': 'assets/page4/Harry Potter Paperback Box Set.jpeg',
                 'rating': 4.9,
                 'reviews': 7500,
                 'specs': ['7 Books', 'Paperback', 'Fantasy', 'Complete Series']
@@ -1168,7 +1168,7 @@ def init_session_state():
                 'category': 'Games',
                 'description': 'The complete Cyberpunk experience, including the Phantom Liberty expansion.',
                 'stock': 45,
-                'image': '🤖',
+                'image': 'assets/page4/Cyberpunk 2077: Ultimate Edition.jpeg',
                 'rating': 4.5,
                 'reviews': 900,
                 'specs': ['PS5/Xbox Series X', 'Action RPG', 'Open World', 'Includes Expansion']
