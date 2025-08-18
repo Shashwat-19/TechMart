@@ -1,12 +1,10 @@
 # 🛒 TechMart - Your Online Store  
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  
-![Streamlit](https://img.shields.io/badge/Streamlit-1.37-red)  
-![License](https://img.shields.io/badge/License-MIT-green)  
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.37-red) ![License](https://img.shields.io/badge/License-MIT-green)  
 
 ---
 
-## 🚀 Overview  
+##  Overview  
 
 **TechMart** is a fully-featured, multipage online store built with **Streamlit** and **Python**.  
 It provides a slick and modern shopping experience, supporting product categories, cart management, reviews, image uploads, and a robust admin dashboard for store management.  
@@ -21,7 +19,7 @@ It provides a slick and modern shopping experience, supporting product categorie
 
 ---
 
-## 🎯 Key Features  
+##  Key Features  
 
 - ✅ Modern UI with cards, hover effects, and sticky header  
 - ✅ Rich product catalog (Electronics, Clothing, Sports, Home & Kitchen, Health & Beauty)  
@@ -43,26 +41,26 @@ It provides a slick and modern shopping experience, supporting product categorie
 
 ---
 
-## 🚀 Live Demo  
+##  Live Demo  
 
 Try the app locally or deploy to Streamlit Community Cloud — see documentation for details.  
 
 ---
 
-## 📦 Latest Release  
+##  Latest Release  
 
 **TechMart v1.0.0** — first stable release  
 
 ---
 
-## 📦 Installation & Setup  
+##  Installation & Setup  
 
 ### 🔧 Prerequisites  
 - Python 3.10+  
 - pip  
 - (Optional) Git  
 
-### 🚀 Quick Start  
+###  Quick Start  
 
 ```sh
 # Clone the repository
@@ -78,7 +76,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Directory Setup (for local images):
+## Directory Setup (for local images):
 ```
 assets/
 └── products/
@@ -90,7 +88,8 @@ assets/
 - Explore the catalog, add items to cart, checkout, and try admin features.
 - Upload new product images via the admin panel.
 ---
-🏗️ Project Architecture
+## 🏗️ Project Architecture
+```angular2html
 techmart-streamlit/
 ├── app.py
 ├── assets/
@@ -100,32 +99,37 @@ techmart-streamlit/
 ├── requirements.txt
 ├── README.md
 └── ...
-🧪 Testing
-Add products to cart and complete purchase flow
-Upload and display product images
-Edit or add products in the admin dashboard
-Test robust UI and session state for multi-user support
-📊 Performance Optimization
-Fast local image loading and preview (base64 caching)
-Session-state-powered low-latency cart and metrics
-Responsive layout with smart CSS and markdown styling
-📖 Documentation
-See /docs folder for setup, customization, and developer guidelines (coming soon).
-💡 Contribution Guidelines
+```
+
+##  Testing
+- Add products to cart and complete purchase flow.
+- Upload and display product images
+- Edit or add products in the admin dashboard
+- Test robust UI and session state for multi-user support
+##  Performance Optimization
+- Fast local image loading and preview (base64 caching)
+- Session-state-powered low-latency cart and metrics
+- Responsive layout with smart CSS and markdown styling
+---
+##  Contribution Guidelines
+```angular2html
 Fork the repository
 Create a new branch (git checkout -b my-feature)
 Commit changes (git commit -m "Add feature")
 Push (git push origin my-feature)
 Open a pull request
-📱 Browser Support
-Chrome (latest)
-Firefox (latest)
-Safari (latest)
-Edge (latest)
-📜 License
+```
+---
+## 📱 Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+---
+## License
 © 2025 YourName
 This project is licensed under the MIT License. See the LICENSE file for details.
-📩 Contact
+Contact
 YourName
 Python Developer | Streamlit Enthusiast
 🔹 E-commerce, web apps, REST APIs
